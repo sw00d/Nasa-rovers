@@ -1,13 +1,15 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+It utilizes the NASA api to list the rover missions with corresponding photos.
+
 ## Getting Started
 
 Install deps:
 
 ```bash
-    npm i
-    # or 
-    yarn install
+npm i
+# or 
+yarn install
 ```
 Run dev server:
 

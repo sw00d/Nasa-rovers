@@ -20,7 +20,7 @@ export default function Home(arg) {
         const url = `https://api.nasa.gov/mars-photos/api/v1/rovers/${ name.toLowerCase() }/photos?earth_date=${ format(date, 'yyyy-M-d') }&api_key=DEMO_KEY`
         const res = await fetch(url)
         const json = await res.json()
-        // setImages(json.photos || [])
+        setImages(json.photos || [])
       } catch (e) {
         // Catch and handle error
         console.error(e)

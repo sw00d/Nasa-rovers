@@ -85,6 +85,5 @@ export default function RoverCard({ rover }) {
         </div>
       </Card>
     </Link>
-
   )
 }
