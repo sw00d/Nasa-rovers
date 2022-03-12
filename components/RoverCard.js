@@ -15,7 +15,7 @@ export default function RoverCard({ rover }) {
   return (
     <Link href={`/rover/${rover.name}/`} color="inherit">
       <Card
-        dark
+        dark="true"
         className={styles.clickable_card}
         sx={ {
           width: '250px',

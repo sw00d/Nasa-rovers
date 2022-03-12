@@ -21,13 +21,10 @@ export default function Home() {
       } catch (e) {
         // Catch and handle error
         console.error(e)
-
         // Replace alert with pretty snackbar
         alert('Error Occurred')
       } finally {
-        if (mounting) {
-          setMounting(false)
-        }
+        setMounting(false)
       }
     })()
   }, [])

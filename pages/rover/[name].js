@@ -27,9 +27,7 @@ export default function Home(arg) {
         // Replace alert with pretty snackbar
         alert('Error Occurred')
       } finally {
-        if (loading) {
-          setLoading(false)
-        }
+        setLoading(false)
       }
     })()
   }, [date, name])
@@ -107,7 +105,7 @@ export default function Home(arg) {
               >
                 <img
                   src={ img_src }
-                  alt={`${name} image ${i+1}`}
+                  alt={ `${ name } image ${ i + 1 }` }
                   width="250px"
                 />
               </Box>
