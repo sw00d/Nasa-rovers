@@ -1,0 +1,70 @@
+.date_chip
+  border-radius 4px !important
+  color white
+  background rgba(255,255,255,.1)
+  padding 5px 0
+
+.date_chip_1
+  @extends .date_chip
+  margin-right 8px
+
+
+.date_chip_2
+  @extends .date_chip
+  margin-left 8px
+
+.clickable_card
+  transition .2s
+  &:hover
+    transform scale(1.02)
+
+.card_title
+  font-size 30px
+  color var(--primary)
+  font-weight 700
+
+.divider
+  background-color var(--primary)
+  height 2px
+  width: 100%;
+
+.camera_label
+  color white
+  display flex
+  align-items center
+  font-size 12px
+  opacity: .6;
+  margin-top: 4px;
+
+.photos_label
+  margin-left 2px
+
+.camera_title
+  font-weight 700
+  color white
+  opacity .6
+  margin-top 20px
+  margin-bottom: 5px
+
+.cameras_container
+  overflow auto
+  height 250px
+  .camera_name
+    font-size 14px
+    display flex
+    align-items flex-start
+    color white
+    opacity .6
+    margin-top 5px
+    font-weight 100
+
+.launched_label
+  color white
+  opacity .6
+  font-size 10px
+
+
+.landed_label
+  color white
+  opacity .6
+  font-size 10px

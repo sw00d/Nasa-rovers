@@ -5,6 +5,12 @@ const lightTheme = createTheme({
     mode: 'light',
     primary: {
       main: '#BC2732'
+    },
+    white: {
+      main: '#fff'
+    },
+    grey: {
+      main: '#282C34'
     }
   },
 })
